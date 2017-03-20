@@ -1,0 +1,11 @@
+full_name: Adrián González Leiva
+languages: [en, es]
+profile_photo: true
+profile_picture_path: img/profile.jpeg
+contact:
+  website: https://nodexploit.com
+  email: email[at]example.com
+  linkedin: https://www.linkedin.com/in/adrigonle/
+  github: https://github.com/soutoner
+  stack_overflow: https://stackoverflow.com/users/3447934/soutoner
+google_analytics:

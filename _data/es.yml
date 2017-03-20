@@ -1,0 +1,110 @@
+# ##############
+# Translations:
+# ##############
+language: Español
+also_available: También disponible en
+print: Imprimir
+built: Construido con
+by: Por
+about_me: Sobre Mi
+experience: Experiencia
+education: Estudios
+lang: Idiomas
+mother_tongue: Lengua nativa
+other_languages: Otros idiomas
+proficiency: Nivel
+project: Proyectos
+skill: Habilidades
+additional_reference: Referencias Adicionales
+# ##############
+# Data:
+# ##############
+about:
+  "Siempre interesado en aprender, preparado para asumir responsabilidades y comenzar proyectos apasionantes.
+  En mi opinión, cada desafío es una nueva posibilidad para marcar la diferencia y como ingeniero, elegir la
+  herramienta adecuada para resolver un problema real. \n
+
+  Tremendamente fascinado por la **programación funcional** y la seguridad. También me encanta conocer gente
+  amable y construir equipos."
+first_language: Español
+experiences:
+  - position: Desarrollador backend PHP y Java
+    company: Clickferry
+    from: Junio 2016
+    to: Actual
+    description:
+      "Actualmente trabajando con *PHP* y *Java* principalmente en el *backend*,  diseñando y desarrollando *RESTful API* pero
+      también integrando servicios *SOAP/REST*: \n
+      * **PHP**: tanto *PHP7* plano como aplicaciones *PHP5* heredadas. Experiencia trabajando con proyectos *Composer* y
+      Laravel/Lumen. \n
+      * **Java**: conocimiento sobre aplicaciones *Java SE*. *SBT* como *build tool*. Experiencia con *Play 2.5 framework*.
+      Además, como lenguaje de la *JVM*, comprensión básica de Scala pero altamente interesado en construir proyectos con
+      este lenguaje."
+  - position: Desarrollador PHP fullstack
+    company: Clickferry
+    from: Marzo 2016
+    to: Mayo 2016
+    description:
+      "Encargado de resolver incidencias con el sistema de tickets de soporte.  Trabajando con el típico *stack* LAMP:
+      *Apache*, *PHP* y *MySQL* en el *backend*. *HTML*, *CSS3* y *Javascript* (+ *jQuery*) en el *frontend*."
+educations:
+  - degree: Grado en Ingeniería Informática
+    university: Universidad de Málaga, España
+    from: 2012
+    to: 2016
+    description:
+      "54 ECTS estudiados en inglés."
+languages:
+  - language: Inglés
+    level: B2
+projects:
+  - title: FRS Caribbean Motor de reserva
+    link: https://frs-caribbean.com
+    position: Desarrollador fullstack, TurizoniaTech
+    from: Julio 2016
+    to: Actual
+    description:
+      "Sistema de reserva de billetes con una *API RESTful* que gestiona la venta de un ferry que opera en rutas desde
+      Miami a las Bahamas."
+  - title: FRS Caribbean Sistema de embarque
+    link: https://frs-caribbean.com
+    position: Desarrollador backend, TurizoniaTech
+    from: Julio 2016
+    to: Actual
+    description:
+      "Sistema de gestión de embarque completo para el navío que opera en el Caribe y que integra con el sistema
+      *USCG (United States Coast Guard) & CBP (Customs and Border Protection) eNOAD (electronic Notice of
+      Arrival/Departure)*."
+  - title: willyfog
+    link: https://github.com/popokis/willyfog
+    position: Desarrollador backend, Universidad
+    from: Feb 2016
+    to: Dic 2016
+    description:
+      "Trabajo de fin de carrera de Adrián y Nicolás. Willyfog es un ecosistema de aplicaciones (web y móvil)
+      que trata de simplificar el proceso de establecer equivalencia entre asignaturas de distintas universidades
+      alrededord el mundo. Para más información, por favor visite el repositorio."
+  - title: PassItEDU
+    link: https://youtube.com/PassItEDU
+    position: Co-fundador
+    from: 2013
+    to: 2014
+    description:
+      "Canal de YouTube de *e-learning* donde se resuelven problemas de grados de ingeniería paso a paso."
+skills:
+  - Java (1 año)
+  - PHP (1 año)
+  - MySQL
+  - OAuth2
+  - RESTful API
+  - Scala
+  - Play Framework
+  - Laravel/Lumen
+  - Linux
+additional_references:
+  - title: Entrevista para Aula Magna
+    link: http://www.aulamagna.com.es/passitedu-la-plataforma-de-dos-estudiantes-de-ingenieria-para-compartir-apuntes/
+    description:
+  - title: Entravista para Diario Sur
+    link: http://www.diariosur.es/cronica-universitaria/201502/17/alumnos-crean-para-compartir-20150217003554-v.html
+    description:

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.full_name | default: site.github.owner_name }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.profile_photo %}
+          <img src="{{ site.profile_picture_path }}" height="200" width="200" style="border-radius: 5px; margin-bottom: 10px;">
+        {% endif %}
+        <h1>{{ site.full_name }}</h1>
+
+        <hr class="hide-print">
+         <div id="contact-buttons" class="hide-print">
+          {% if site.contact.website %}
+            <a href="{{ site.contact.website }}" target="_blank"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if site.contact.email %}
+            <a href="mailto:{{ site.contact.email }}" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if site.contact.linkedin %}
+            <a href="{{ site.contact.linkedin }}" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if site.contact.github %}
+            <a href="{{ site.contact.github }}" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          {% endif %}
+          {% if site.contact.stack_overflow %}
+            <a href="{{ site.contact.stack_overflow }}" target="_blank"><i class="fa fa-stack-overflow fa-2x" aria-hidden="true"></i></a>
+          {% endif %}
+        </div>
+        <hr class="hide-print">
+
+
+        <div class="hide-print">
+            {{ site.data[page.lang].also_available }}:
+        {% for lang in site.languages %}
+          {% if lang != page.lang %}
+            <p>- <a href="
+              {% if forloop.index > 1 %}
+                {{ lang }}
+              {% else %}
+                /
+              {% endif %}
+              ">{{ site.data[lang].language }}</a></p>
+          {% endif %}
+        {% endfor %}
+        </div>
+
+        <p class="hide-print"><a id="download-pdf" style="cursor: pointer;">{{ site.data[page.lang].print }} <i class="fa fa-print" aria-hidden="true"></i></a></p>
+      </header>
+      <section>
+
+        {{ content }}
+
+      </section>
+      <footer>
+        <p><small>{{ site.data[page.lang].built }} <a href="https://github.com/soutoner/minimal-resume" target="_blank">Minimal Resume</a>
+          &mdash; {{ site.data[page.lang].by }} <a href="https://github.com/soutoner" target="_blank">@soutoner</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+    <script>
+      document.getElementById('download-pdf').onclick = function () {
+          window.print();
+      };
+    </script>
+
+  {% if site.google_analytics %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+    </script>
+  {% endif %}
+  </body>
+</html>

@@ -1,0 +1,108 @@
+# ##############
+# Translations:
+# ##############
+language: English
+also_available: Also available in
+print: Print it
+built: Built with
+by: By
+about_me: About Me
+experience: Experience
+education: Education
+lang: Languages
+mother_tongue: Mother tongue
+other_languages: Other languages
+proficiency: Proficiency
+project: Projects
+skill: Skills
+additional_reference: Additional references
+# ##############
+# Data:
+# ##############
+about:
+  "Always looking forward to learn, ready to assume responsibilities
+  and to bootstrap awesome projects. In my opinion, every challenge is a new possibility to make a difference
+  and as an engineer, choose the right tool to solve a real problem. \n
+
+  Overwhelmingly fascinated by **functional programming**
+  and security concerns. Also, I love meeting nice people and building teams."
+first_language: Spanish
+experiences:
+  - position: PHP and Java Backend developer
+    company: Clickferry
+    from: June 2016
+    to: Present
+    description:
+      "Currently working with PHP and Java mainly in the back end, designing and developing RESTful API but also
+      integrating SOAP/REST services: \n
+      * **PHP**: both plain PHP7 and legacy PHP5 applications. Experience dealing with *Composer* projects and Laravel/Lumen. \n
+      * **Java**: knowledge about Java SE applications. *SBT* as main build tool. Experience with Play 2.5 framework.
+      In addition to this, as JVM language, basic understanding of Scala but highly interested in building projects with this language."
+  - position: Full stack PHP developer
+    company: Clickferry
+    from: March 2016
+    to: May 2016
+    description:
+      "Responsible for resolving incidences with the ticket support system. Working with the usual LAMP stack:
+      Apache, PHP and MySQL in the back end, HTML, CSS3 and Javascript (+ jQuery) in the front end."
+educations:
+  - degree: Degree in Informatics Engineering
+    university: University of Malaga, Spain
+    from: 2012
+    to: 2016
+    description:
+      "'Grado en Ingeniería Informática', 54 ECTS studied in English."
+languages:
+  - language: English
+    level: B2
+projects:
+  - title: FRS Caribbean Booking Engine
+    link: https://frs-caribbean.com
+    position: Full stack developer, TurizoniaTech
+    from: July 2016
+    to: Present
+    description:
+      "Booking engine with RESTful API that manages the online ticket sell of the vessel that operates in routes
+      from Miami to the Bahamas."
+  - title: FRS Caribbean Check-in/Boarding System
+    link: https://frs-caribbean.com
+    position: Backend developer, TurizoniaTech
+    from: July 2016
+    to: Present
+    description:
+      "Full embarkation management system for the vessel that operates in the Caribbean and integrates effortlessly
+      with the USCG (United States Coast Guard) & CBP (Customs and Border Protection) eNOAD (electronic Notice of
+      Arrival/Departure) system."
+  - title: willyfog
+    link: https://github.com/popokis/willyfog
+    position: Backend developer, University
+    from: Feb 2016
+    to: Dec 2016
+    description:
+      "End-of-degree project of Adrian and Nicolas. Willyfog is an ecosystem of different applications (web and mobile)
+      that will try to simplify the process of setting equivalences between subjects of different universities around
+      the world. For more info please visit the repository."
+  - title: PassItEDU (Spanish)
+    link: https://youtube.com/PassItEDU
+    position: Co-founder
+    from: 2013
+    to: 2014
+    description:
+      "YouTube e-learning channel where math problems of Engineering degrees are solved step-by-step."
+skills:
+  - Java (1 year)
+  - PHP (1 year)
+  - MySQL
+  - OAuth2
+  - RESTful API
+  - Scala
+  - Play Framework
+  - Laravel/Lumen
+  - Linux
+additional_references:
+  - title: Interview for Aula Magna (Spanish)
+    link: http://www.aulamagna.com.es/passitedu-la-plataforma-de-dos-estudiantes-de-ingenieria-para-compartir-apuntes/
+    description:
+  - title: Interview for Diario Sur (Spanish)
+    link: http://www.diariosur.es/cronica-universitaria/201502/17/alumnos-crean-para-compartir-20150217003554-v.html
+    description:
