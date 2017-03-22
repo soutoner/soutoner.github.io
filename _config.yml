@@ -1,6 +1,6 @@
 full_name: Adrián González Leiva
 languages: [en, es]
-profile_photo: true
+profile_photo: false
 profile_picture_path: img/profile.jpeg
 contact:
   website: https://nodexploit.com
