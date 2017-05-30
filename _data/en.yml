@@ -28,10 +28,17 @@ about:
   and security concerns. Also, I love meeting nice people and building teams."
 first_language: Spanish
 experiences:
+  - position: Java and PHP Backend developer
+    company: Basebone
+    from: May 2017
+    to: Present
+    description:
+      "Dealing on a daily basis with an asynchronous architecture connected by means of RabbitMQ. Experience in a mix of legacy 
+      PHP5 and Java SE code, also integrating both RESTful and SOAP APIs. Looking forward to include Scala as my everyday language."
   - position: PHP and Java Backend developer
     company: Clickferry
     from: June 2016
-    to: Present
+    to: April 2017
     description:
       "Currently working with PHP and Java mainly in the back end, designing and developing RESTful API but also
       integrating SOAP/REST services: \n
