@@ -28,10 +28,16 @@ about:
   and security concerns. Also, I love meeting nice people and building teams."
 first_language: Spanish
 experiences:
+  - position: Scala Backend Developer
+    company: Rindus GmbH
+    from: Oct 2017
+    to: Present
+    description:
+      "Working in a Scala project for Parfümerie Douglas GmbH"
   - position: Java and PHP Backend developer
     company: Basebone
     from: May 2017
-    to: Present
+    to: Sep 2017
     description:
       "Dealing on a daily basis with an asynchronous architecture connected by means of RabbitMQ. Experience in a mix of legacy 
       PHP5 and Java SE code, also integrating both RESTful and SOAP APIs. Looking forward to include Scala as my everyday language."
@@ -47,7 +53,7 @@ experiences:
       In addition to this, as JVM language, basic understanding of Scala but highly interested in building projects with this language."
   - position: Full stack PHP developer
     company: Clickferry
-    from: March 2016
+    from: Mar 2016
     to: May 2016
     description:
       "Responsible for resolving incidences with the ticket support system. Working with the usual LAMP stack:
