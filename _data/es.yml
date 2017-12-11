@@ -28,10 +28,16 @@ about:
   amable y construir equipos."
 first_language: Español
 experiences:
+  - position: Scala Backend Developer
+    company: Rindus GmbH
+    from: Oct 2017
+    to: Actual
+    description:
+      "Trabajando en un proyecto Scala para *Parfümerie Douglas GmbH*"
   - position: Desarrollador backend Java y PHP
     company: Basebone
     from: Mayo 2017
-    to: Actual
+    to: Sept 2017
     description:
       "Trabajando diariamente con una arquitectura asíncrona comunicada mediante *RabbitMQ*. Experiencia con código *legacy*
       PHP5 y Java SE, también integrando tanto *APIs RESTful* como *SOAP*. Interesado en incluir *Scala* como lenguaje principal."
