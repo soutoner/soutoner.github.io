@@ -33,7 +33,12 @@ experiences:
     from: Oct 2017
     to: Present
     description:
-      "Working in a Scala project for Parfümerie Douglas GmbH"
+      "Scala project for Parfümerie Douglas GmbH. \n
+      I am currently participating in a highly effective Scrum team of 8-10 people as backend Scala developer. 
+      Some of my day to day technologies are: Scala with Play Framework and SBT as build tool. 
+      I rather developing code as framework agnostic and functional as possible with Typelevel libraries like Cats,
+      Circe and Specs2 as my go-to testing framework.\n
+      Nowadays, I am aiming to get fluent in pure functional technologies like Haskell."
   - position: Java and PHP Backend developer
     company: Basebone
     from: May 2017
