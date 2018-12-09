@@ -37,7 +37,7 @@ experiences:
       I am currently participating in a highly effective Scrum team of 8-10 people as backend Scala developer. 
       Some of my day to day technologies are: Scala with Play Framework and SBT as build tool. 
       I rather developing code as framework agnostic and functional as possible with Typelevel libraries like Cats,
-      Circe and Specs2 as my go-to testing framework.\n
+      Circe and ScalaTest as my go-to testing framework.\n
       Nowadays, I am aiming to get fluent in pure functional technologies like Haskell."
   - position: Java and PHP Backend developer
     company: Basebone
@@ -74,6 +74,20 @@ languages:
   - language: English
     level: B2
 projects:
+  - title: A strongly typed martini. Shaken, not stirred. 🍸
+    link: https://cadiz.lambda.world/schedule/#session-105
+    position: Speaker
+    from: October 2018
+    to: October 2018
+    description:
+      "Workshop about Liquid Haskell imparted together with Jan Schulte in Lambda World Cadiz 2018"
+  - title: minimal-resume
+    link: https://github.com/soutoner/minimal-resume
+    position: Developer
+    from: March 2017
+    to: Present
+    description:
+      "Dead simple, data-isolated and multilingual resume."
   - title: FRS Caribbean Booking Engine
     link: https://frs-caribbean.com
     position: Full stack developer, TurizoniaTech
